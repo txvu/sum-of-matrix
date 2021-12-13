@@ -2,12 +2,12 @@
 
 Demo program:
 
->> question_1
+\>> question_1
 Enter a square matrix: [1, 2; 3, 4; 5, 6]
 
 Error! The matrix is not square.
 
->> question_1
+\>> question_1
 Enter a square matrix: [1, 2, 3; 0, 0, 0; 0, 0, 0]
 
 Determinant of A: 
@@ -22,7 +22,7 @@ Eigen Vectors:
         0   0.4472        0
         0        0   0.3162
 
->> question_1
+\>> question_1
 Enter a square matrix: [1, 2; 3, 4]
 
 Determinant of A: 
@@ -39,20 +39,20 @@ Eigen Vectors:
   -0.8246  -0.4160
    0.5658  -0.9094
 
->> A_1 = ones(2) - 2*eye(2)
+\>> A_1 = ones(2) - 2*eye(2)
 A_1 =
 
   -1   1
    1  -1
 
->> A_2 = [22, 2, 0; 4, 5, 2; 3, 7, 7]
+\>> A_2 = [22, 2, 0; 4, 5, 2; 3, 7, 7]
 A_2 =
 
    22    2    0
     4    5    2
     3    7    7
 
->> question_1
+\>> question_1
 Enter a square matrix: A_1
 
 Determinant of A: 
@@ -67,7 +67,7 @@ Eigen Vectors:
   -0.7071   0.7071
 
 
->> question_1
+\>> question_1
 Enter a square matrix: A_2
 
 Determinant of A: 
@@ -86,93 +86,93 @@ Eigen Vectors:
   -0.244218   0.360469  -0.600915
   -0.288939   0.930979   0.797063
 
->>
->>
->>
->>
->>
->> sum_by_for_loop(A_1, 10)
+\>>
+\>>
+\>>
+\>>
+\>>
+\>> sum_by_for_loop(A_1, 10)
 ans =
 
    341  -341
   -341   341
 
->> sum_by_for_loop(A_1, 25)
+\>> sum_by_for_loop(A_1, 25)
 ans =
 
   -1.1185e+07   1.1185e+07
    1.1185e+07  -1.1185e+07
 
->> sum_by_for_loop(A_2, 10)
+\>> sum_by_for_loop(A_2, 10)
 ans =
 
    3.3985e+13   4.0877e+12   5.2628e+11
    8.9649e+12   1.0807e+12   1.4066e+11
    1.0605e+13   1.2817e+12   1.6885e+11
 
->> sum_by_for_loop(A_2, 100)
+\>> sum_by_for_loop(A_2, 100)
 ans =
 
    1.8868e+135   2.2697e+134   2.9234e+133
    4.9778e+134   5.9880e+133   7.7127e+132
    5.8893e+134   7.0845e+133   9.1250e+132
 
->>
->>
->>
->>
->>
->> sum_by_while_loop(A_1, 10)
+\>>
+\>>
+\>>
+\>>
+\>>
+\>> sum_by_while_loop(A_1, 10)
 ans =
 
    341  -341
   -341   341
 
->> sum_by_while_loop(A_1, 25)
+\>> sum_by_while_loop(A_1, 25)
 ans =
 
   -1.1185e+07   1.1185e+07
    1.1185e+07  -1.1185e+07
 
->> sum_by_while_loop(A_2, 10)
+\>> sum_by_while_loop(A_2, 10)
 ans =
 
    3.3985e+13   4.0877e+12   5.2628e+11
    8.9649e+12   1.0807e+12   1.4066e+11
    1.0605e+13   1.2817e+12   1.6885e+11
 
->> sum_by_while_loop(A_2, 100)
+\>> sum_by_while_loop(A_2, 100)
 ans =
 
    1.8868e+135   2.2697e+134   2.9234e+133
    4.9778e+134   5.9880e+133   7.7127e+132
    5.8893e+134   7.0845e+133   9.1250e+132
 
->>
->>
->>
->>
->>
->> sum_by_do_while_loop(A_1, 10)
+\>>
+\>>
+\>>
+\>>
+\>>
+\>> sum_by_do_while_loop(A_1, 10)
 ans =
 
    341  -341
   -341   341
 
->> sum_by_do_while_loop(A_1, 25)
+\>> sum_by_do_while_loop(A_1, 25)
 ans =
 
   -1.1185e+07   1.1185e+07
    1.1185e+07  -1.1185e+07
 
->> sum_by_do_while_loop(A_2, 10)
+\>> sum_by_do_while_loop(A_2, 10)
 ans =
 
    3.3985e+13   4.0877e+12   5.2628e+11
    8.9649e+12   1.0807e+12   1.4066e+11
    1.0605e+13   1.2817e+12   1.6885e+11
 
->> sum_by_do_while_loop(A_2, 100)
+\>> sum_by_do_while_loop(A_2, 100)
 ans =
 
    1.8868e+135   2.2697e+134   2.9234e+133
